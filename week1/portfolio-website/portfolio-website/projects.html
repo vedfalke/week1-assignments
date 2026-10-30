@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projects by Ved Falke — Algorithmic trading bot, collaborative real-time whiteboard, and responsive web applications.">
+    <title>Projects — Ved Falke</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body><a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container nav-wrap"><a class="brand" href="index.html"><span
+                    class="brand-mark">V.</span><span>vedfalke<span class="brand-dot">.</span></span></a><button
+                class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"
+                aria-label="Open navigation"><span></span><span></span></button>
+            <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a
+                    href="about.html">About</a><a class="active" href="projects.html">Projects</a><a
+                    href="contact.html">Contact</a><button class="theme-toggle" type="button"
+                    aria-label="Switch color theme" title="Switch color theme"><span
+                        class="theme-icon">☾</span></button></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="page-hero section">
+            <div class="container page-hero-inner reveal">
+                <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+                <h1>Engineered with<br><span class="text-gradient">precision &amp; purpose.</span></h1>
+                <p class="hero-lead">A selection of full-stack and frontend systems highlighting algorithmic execution, real-time collaboration, and responsive UI engineering.</p>
+            </div>
+       
+        </section>
+        <section class="section">
+                                   
+            <div class="container">
+              
+                <div class="project-grid projects-page-grid">
+                    <article class="project-card reveal" id="stock-operator" data-category="fullstack">
+                        <div class="project-visual visual-stock">
+                            <img src="assets/images/stock-operator.jpg" alt="Stock Operator Algorithmic Trading Platform and Live NIFTY 50 Dashboard" loading="lazy">
+                            <span class="project-arrow">↗</span>
+                        </div>
+                        <div class="project-info">
+                            <div>
+                                <p class="project-type">FULL STACK · ALGORITHMIC TRADING</p>
+                                <h3>Stock Operator</h3>
+                            </div><span class="project-index">01</span>
+                            <p>Built a production-grade algorithmic trading bot integrating AngelOne SmartAPI 2.0 for automated order execution and live market access. Implemented real-time WebSocket tick feeds, custom technical indicators, and candlestick pattern detection logic to drive trading decisions. Built a TradingView-embedded NIFTY dashboard for live market visualization.</p>
+                            <div class="tag-row">
+                                <span>MERN Stack</span><span>AngelOne SmartAPI 2.0</span><span>WebSocket</span><span>MongoDB</span><span>GCP</span><span>PM2</span>
+                            </div>
+                            <div class="project-links"><a href="https://github.com/vedfalke" target="_blank"
+                                    rel="noreferrer">Source code ↗</a><span>May 2026 – Sep 2026</span></div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" id="xcalidraw" data-category="fullstack">
+                        <div class="project-visual visual-draw">
+                            <div class="draw-mock">
+                                <div class="draw-toolbar">
+                                    <span class="draw-tool-btn active">✎</span>
+                                    <span class="draw-tool-btn">□</span>
+                                    <span class="draw-tool-btn">○</span>
+                                    <span class="draw-tool-btn">T</span>
+                                    <span class="draw-tool-btn">⌫</span>
+                                </div>
+                                <div class="draw-canvas">
+                                    <svg class="draw-svg" viewBox="0 0 160 50">
+                                        <rect x="15" y="10" width="40" height="30" rx="4" fill="none" stroke="#6857e8" stroke-width="2"/>
+                                        <path d="M 60 25 L 90 25" stroke="#a19aff" stroke-width="2" stroke-dasharray="3,3"/>
+                                        <circle cx="115" cy="25" r="16" fill="none" stroke="#46c99a" stroke-width="2"/>
+                                    </svg>
+                                    <span class="user-cursor">Ved ✎</span>
+                                </div>
+                            </div>
+                            <span class="project-arrow">↗</span>
+                        </div>
+                        <div class="project-info">
+                            <div>
+                                <p class="project-type">FULL STACK · REAL-TIME SYSTEM</p>
+                                <h3>XcaliDraw</h3>
+                            </div><span class="project-index">02</span>
+                            <p>Built a real-time collaborative whiteboard with React and Socket.IO, enabling synchronized drawing across multiple users. Implemented JWT-based authentication and secure password hashing with bcrypt (Node.js/Express/MongoDB). Designed and implemented RESTful canvas and user APIs with Mongoose, alongside role-based access control.</p>
+                            <div class="tag-row"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Socket.IO</span><span>JWT</span><span>bcrypt</span></div>
+                            <div class="project-links"><a href="https://github.com/vedfalke" target="_blank"
+                                    rel="noreferrer">Source code ↗</a><span>Feb 2026 – Mar 2026</span></div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" id="codsoft-web" data-category="frontend javascript">
+                        <div class="project-visual visual-responsive">
+                            <div class="responsive-mock">
+                                <div class="mock-desktop">
+                                    <div class="mock-desktop-bar"><i></i><i></i><i></i></div>
+                                    <div class="mock-desktop-body">
+                                        <div class="mock-bar w-70 accent"></div>
+                                        <div class="mock-bar w-40"></div>
+                                        <div class="mock-bar w-70"></div>
+                                    </div>
+                                </div>
+                                <div class="mock-mobile">
+                                    <div class="mock-mobile-notch"></div>
+                                    <div class="mock-bar w-70 accent"></div>
+                                    <div class="mock-bar w-40"></div>
+                                </div>
+                            </div><span class="project-arrow">↗</span>
+                        </div>
+                        <div class="project-info">
+                            <div>
+                                <p class="project-type">FRONTEND · INTERNSHIP PROJECTS</p>
+                                <h3>CodSoft Responsive Web Apps</h3>
+                            </div><span class="project-index">03</span>
+                            <p>Developed 3+ responsive web applications during Software Development Internship at CodSoft, improving mobile usability and cross-browser compatibility across 5+ screen sizes. Reduced page load time by 30% by optimizing CSS structure and minimizing redundant JavaScript code. Implemented reusable UI components using Tailwind CSS, decreasing development time by 25%.</p>
+                            <div class="tag-row"><span>Tailwind CSS</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Performance</span></div>
+                            <div class="project-links"><a href="https://github.com/vedfalke" target="_blank"
+                                    rel="noreferrer">Source code ↗</a><span>Jan 2025 – Feb 2025</span></div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" id="ai-study" data-category="fullstack javascript">
+                        <div class="project-visual visual-study">
+                            <div class="visual-browser">
+                                <div class="browser-bar"><i></i><i></i><i></i></div>
+                                <div class="study-mock">
+                                    <div class="mock-sidebar"></div>
+                                    <div class="mock-content"><b>Learn at your pace.</b><span></span><span></span>
+                                        <div class="mock-cards"><i></i><i></i><i></i></div>
+                                    </div>
+                                </div>
+                            </div><span class="project-arrow">↗</span>
+                        </div>
+                        <div class="project-info">
+                            <div>
+                                <p class="project-type">FULL STACK · JAVASCRIPT</p>
+                                <h3>AI Study Core</h3>
+                            </div><span class="project-index">04</span>
+                            <p>A learning hub for roadmaps, curated resources, and topic-based technical assessments. Designed with structured DOM interactions, REST endpoints, and responsive layouts to make technical self-learning structured and approachable.</p>
+                            <div class="tag-row"><span>JavaScript</span><span>HTML/CSS</span><span>Node.js</span><span>MongoDB</span><span>REST APIs</span></div>
+                        </div>
+                    </article>
+                </div>
+                <p class="empty-state" hidden>No projects match this filter yet.</p>
+            </div>
+        </section>
+        <section class="cta-section">
+            <div class="container cta-inner reveal">
+                <div>
+                    <p class="eyebrow">LET'S BUILD THE NEXT ONE</p>
+                    <h2>Have a challenge<br><span class="text-gradient">in mind?</span></h2>
+                </div><a class="btn btn-primary" href="contact.html">Start a conversation <span>↗</span></a>
+                <div class="cta-orb"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-top"><a class="brand" href="index.html"><span
+                    class="brand-mark">V.</span><span>vedfalke<span class="brand-dot">.</span></span></a>
+            <p>Building with curiosity, shipping with care.</p>
+            <div class="social-links">
+                <a href="https://github.com/vedfalke" target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/ved-falke/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+                <a href="https://leetcode.com/u/vedfalke/" target="_blank" rel="noreferrer">LeetCode ↗</a>
+                <a href="mailto:falkeved9@gmail.com">Email ↗</a>
+            </div>
+        </div>
+        <div class="container footer-bottom"><span>© <span data-year>2026</span> Ved Falke. All rights reserved.</span>
+            <div><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></div><a
+                class="back-top" href="#main">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+
+</html>
